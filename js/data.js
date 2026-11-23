@@ -165,6 +165,6 @@ const I18N = {
   },
 };
 
-const INSTAGRAM = 'https://instagram.com/the_queen_accessories';
+const INSTAGRAM = 'https://www.instagram.com/the_queen_accessories.officiel';
 
 window.TQA_DATA = { ZONES, PRODUCTS, HERO_PIECES, I18N, INSTAGRAM };
