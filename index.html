@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Queen Accessories — Piercing · Tunis Palmarium</title>
+<meta name="description" content="Studio de piercing à Tunis Palmarium. Explorez chaque placement et faites tourner chaque bijou en 3D avant votre rendez-vous.">
+<meta name="theme-color" content="#100E16">
+<meta property="og:title" content="The Queen Accessories — Piercing">
+<meta property="og:description" content="Explorez chaque piercing en 3D — Tunis Palmarium.">
+<meta property="og:image" content="assets/products/conch.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M5 23 3 10l7 5 6-9 6 9 7-5-2 13z' fill='none' stroke='%23BBADFF' stroke-width='2' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#collection" data-i18n="skip">Aller à la collection</a>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="#top" aria-label="The Queen Accessories">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 23 3 10l7 5 6-9 6 9 7-5-2 13z"/><path d="M6 27h20"/></svg>
+      <span class="brand-text"><span class="brand-name">The Queen</span><span class="brand-sub">Accessories</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Navigation">
+      <a href="#collection" data-i18n="navCollection">Collection</a>
+      <a href="#process" data-i18n="navProcess">Le rituel</a>
+      <a href="#visit" data-i18n="navVisit">Le studio</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang" role="group" aria-label="Langue · اللغة">
+        <button type="button" data-lang="fr" aria-pressed="true" lang="fr">FR</button>
+        <button type="button" data-lang="ar" aria-pressed="false" lang="ar">ع</button>
+      </div>
+      <a class="btn btn-ink btn-sm js-instagram" href="#" target="_blank" rel="noopener" data-i18n="book">Réserver</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <!-- ================= HERO ================= -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span><span data-i18n="heroEyebrow">Studio de piercing · Tunis Palmarium</span></p>
+        <h1 id="hero-title" class="display"><span data-i18n="heroTitleA">Chaque détail,</span> <em data-i18n="heroTitleB">en lumière.</em></h1>
+        <p class="lead" data-i18n="heroLead">Choisissez votre placement, puis faites tourner chaque bijou en 3D — avant même de passer la porte.</p>
+        <div class="cta-row">
+          <a class="btn btn-ink" href="#collection"><span data-i18n="heroCta">Explorer la collection</span><svg class="ico flip-rtl" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-ghost js-instagram" href="#" target="_blank" rel="noopener" data-i18n="heroCta2">Réserver sur Instagram</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-stage" id="hero-stage">
+          <div class="orb" aria-hidden="true"></div>
+          <div class="stage-canvas" id="hero-canvas"></div>
+          <img class="stage-fallback" id="hero-fallback" src="assets/products/flat.jpg" alt="">
+        </div>
+        <div class="hero-meta">
+          <button type="button" class="showcase" id="hero-showcase">
+            <span class="showcase-label" data-i18n="nowShowing">En vitrine</span>
+            <span class="showcase-name" id="hero-piece-name"></span>
+            <span class="showcase-price" id="hero-piece-price"></span>
+          </button>
+          <fieldset class="swatches" id="hero-swatches">
+            <legend class="vh" data-i18n="finish">Finition</legend>
+            <label class="swatch" data-metal="silver"><input type="radio" name="hero-metal" value="silver" checked><span class="chip" aria-hidden="true"></span><span class="vh" data-i18n="silver">Argent</span></label>
+            <label class="swatch" data-metal="gold"><input type="radio" name="hero-metal" value="gold"><span class="chip" aria-hidden="true"></span><span class="vh" data-i18n="gold">Or</span></label>
+            <label class="swatch" data-metal="rose"><input type="radio" name="hero-metal" value="rose"><span class="chip" aria-hidden="true"></span><span class="vh" data-i18n="rose">Or rose</span></label>
+          </fieldset>
+        </div>
+        <p class="hint" data-i18n="heroHint">Bougez la souris · le bijou vous suit</p>
+      </div>
+    </div>
+
+    <ul class="trust wrap" role="list">
+      <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="m9 12 2 2 4-4"/></svg><span data-i18n="trust1">Stérilisation complète</span></li>
+      <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z"/></svg><span data-i18n="trust2">Hygiène garantie</span></li>
+      <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12l3 6-9 12L3 9z"/><path d="M3 9h18M9 3l3 18 3-18"/></svg><span data-i18n="trust3">Bijoux de haute qualité</span></li>
+      <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.5 6.7 19.4l1.2-6L3.4 9.3l6-.7z"/></svg><span data-i18n="trust4">Dernières tendances</span></li>
+    </ul>
+  </section>
+
+  <!-- ================= COLLECTION ================= -->
+  <section class="section" id="collection" aria-labelledby="col-title">
+    <div class="wrap">
+      <header class="section-head">
+        <p class="eyebrow" data-i18n="colEyebrow">La collection</p>
+        <h2 id="col-title" class="h2" data-i18n="colTitle">Trouvez votre placement</h2>
+        <p class="lead" data-i18n="colLead">Filtrez par zone. Touchez un bijou pour voir la photo réelle et le modèle 3D.</p>
+      </header>
+      <div class="filters" role="group" id="filters" data-i18n-aria="filterLabel" aria-label="Filtrer par zone"></div>
+      <p class="results" id="results" aria-live="polite"></p>
+      <ul class="grid" id="grid" role="list"></ul>
+    </div>
+  </section>
+
+  <!-- ================= PROCESS ================= -->
+  <section class="section section-soft" id="process" aria-labelledby="proc-title">
+    <div class="wrap">
+      <header class="section-head">
+        <p class="eyebrow" data-i18n="procEyebrow">Le rituel</p>
+        <h2 id="proc-title" class="h2" data-i18n="procTitle">Simple, propre, maîtrisé</h2>
+      </header>
+      <ol class="steps" role="list">
+        <li class="step"><span class="step-num" aria-hidden="true">01</span><h3 data-i18n="p1t">Choisissez</h3><p data-i18n="p1d">Explorez les placements et faites tourner le bijou en 3D pour trouver celui qui vous ressemble.</p></li>
+        <li class="step"><span class="step-num" aria-hidden="true">02</span><h3 data-i18n="p2t">Hygiène totale</h3><p data-i18n="p2d">Chaque instrument est entièrement stérilisé. Votre sécurité passe en premier.</p></li>
+        <li class="step"><span class="step-num" aria-hidden="true">03</span><h3 data-i18n="p3t">Le bon bijou</h3><p data-i18n="p3d">Des bijoux de haute qualité, choisis parmi les dernières tendances.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ================= VISIT ================= -->
+  <section class="section" id="visit" aria-labelledby="visit-title">
+    <div class="wrap visit">
+      <div class="visit-copy">
+        <p class="eyebrow" data-i18n="visitEyebrow">Le studio</p>
+        <h2 id="visit-title" class="h2" data-i18n="visitTitle">Venez nous voir</h2>
+        <p class="lead" data-i18n="visitLead">Retrouvez-nous au Palmarium, au cœur de Tunis. Écrivez-nous sur Instagram pour réserver.</p>
+        <ul class="visit-list" role="list">
+          <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg><span data-i18n="visitPlace">The Queen Accessories — Tunis, Palmarium</span></li>
+          <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8"/></svg><a class="js-instagram" href="#" target="_blank" rel="noopener"><bdi dir="ltr">@the_queen_accessories</bdi></a></li>
+        </ul>
+        <a class="btn btn-ink js-instagram" href="#" target="_blank" rel="noopener" data-i18n="visitCta">Écrire sur Instagram</a>
+      </div>
+      <div class="visit-media">
+        <img src="assets/products/conch.jpg" alt="" loading="lazy">
+        <img src="assets/products/septum.jpg" alt="" loading="lazy">
+        <img src="assets/products/helix.jpg" alt="" loading="lazy">
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <p class="foot-tag" data-i18n="footTag">Beauty in every detail</p>
+    <p class="foot-small">© <span id="year"></span> The Queen Accessories · <span data-i18n="footNote">Prix en dinars tunisiens (DT).</span></p>
+  </div>
+</footer>
+
+<!-- ================= PRODUCT SHEET ================= -->
+<dialog class="sheet" id="sheet" aria-labelledby="sheet-title">
+  <div class="sheet-bar">
+    <button type="button" class="icon-btn" id="sheet-close" data-i18n-aria="close" aria-label="Fermer">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <p class="sheet-count" id="sheet-count" aria-live="polite"></p>
+    <div class="sheet-nav">
+      <button type="button" class="icon-btn" id="sheet-prev" data-i18n-aria="prev" aria-label="Précédent"><svg class="ico flip-rtl" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+      <button type="button" class="icon-btn" id="sheet-next" data-i18n-aria="next" aria-label="Suivant"><svg class="ico flip-rtl" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+    </div>
+  </div>
+
+  <div class="sheet-body">
+    <div class="sheet-media" id="sheet-media" data-view="3d">
+      <div class="media-tabs" role="group">
+        <button type="button" data-view="photo" aria-pressed="false" data-i18n="tabPhoto">Photo</button>
+        <button type="button" data-view="3d" aria-pressed="true" data-i18n="tab3d">3D</button>
+      </div>
+      <figure class="pane pane-photo">
+        <img id="sheet-photo" src="" alt="">
+        <figcaption class="pane-label" data-i18n="panePhoto">Photo réelle</figcaption>
+      </figure>
+      <div class="pane pane-3d">
+        <div class="stage-canvas" id="sheet-canvas"></div>
+        <p class="no-webgl-msg" data-i18n="noWebgl">La 3D n’est pas disponible sur cet appareil. La photo réelle reste visible.</p>
+        <span class="pane-label" data-i18n="pane3d">Bijou en 3D</span>
+        <div class="pane-tools">
+          <button type="button" class="tool" id="tool-auto" aria-pressed="true"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg><span id="tool-auto-label"></span></button>
+          <button type="button" class="tool" id="tool-reset"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.3-5.7M4 4v4h4"/></svg><span data-i18n="reset">Recentrer</span></button>
+        </div>
+        <p class="pane-hint" data-i18n="drag">Glissez pour tourner · pincez ou molette pour zoomer</p>
+      </div>
+    </div>
+
+    <aside class="sheet-info">
+      <p class="eyebrow" id="sheet-zone"></p>
+      <h2 class="sheet-title" id="sheet-title"></h2>
+      <p class="sheet-price" id="sheet-price"></p>
+      <p class="sheet-desc" id="sheet-desc"></p>
+
+      <fieldset class="finish">
+        <legend data-i18n="finish">Finition</legend>
+        <div class="finish-options">
+          <label class="finish-opt" data-metal="silver"><input type="radio" name="sheet-metal" value="silver" checked><span class="chip" aria-hidden="true"></span><span data-i18n="silver">Argent</span></label>
+          <label class="finish-opt" data-metal="gold"><input type="radio" name="sheet-metal" value="gold"><span class="chip" aria-hidden="true"></span><span data-i18n="gold">Or</span></label>
+          <label class="finish-opt" data-metal="rose"><input type="radio" name="sheet-metal" value="rose"><span class="chip" aria-hidden="true"></span><span data-i18n="rose">Or rose</span></label>
+        </div>
+        <p class="fine" data-i18n="finishNote">Aperçu des finitions — disponibilité à confirmer en studio.</p>
+      </fieldset>
+
+      <dl class="facts">
+        <div><dt data-i18n="healing">Cicatrisation</dt><dd id="sheet-heal"></dd></div>
+      </dl>
+      <p class="fine" data-i18n="healingNote">Durée indicative — votre pierceur vous conseillera.</p>
+
+      <a class="btn btn-ink btn-block js-instagram" href="#" target="_blank" rel="noopener" data-i18n="bookThis">Réserver ce piercing</a>
+    </aside>
+  </div>
+</dialog>
+
+<script src="js/data.js"></script>
+<script src="js/app.bundle.js"></script>
+</body>
+</html>
